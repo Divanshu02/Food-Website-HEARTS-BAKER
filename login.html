@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    * {
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+        }
+        
+        h1 {
+            font-size: 45px;
+            font-weight: 400;
+            text-align: center;
+            text-transform: capitalize;
+            letter-spacing: 9px;
+            word-spacing: 4px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            color: rgb(12, 0, 0);
+            font-family: 'Lobster', cursive;
+            opacity: 1;
+        }
+        
+        span {
+            color: #f00;
+        }
+        
+        body {
+            background-image: url('login.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+        
+        div {
+            height: 423px;
+            width: 500px;
+            background-color: black;
+            opacity: 0.6;
+            position: relative;
+            margin-left: 466px;
+            margin-bottom: 20px;
+        }
+        
+        h2 {
+            font-size: 20px;
+            font-weight: 400;
+            text-align: center;
+            text-transform: lowercase;
+            letter-spacing: 0.1em;
+            padding: 0.5em;
+            color: #fff;
+            border-bottom: 2px solid #f00;
+            font-family: 'Righteous', cursive;
+        }
+        
+        input[type="text"],
+        input[type="password"] {
+            font-size: 1em;
+            font-weight: 500;
+            text-align: center;
+            text-transform: capitalize;
+            letter-spacing: 1px;
+            margin: 0px;
+            padding: 8px 0;
+            border: 2px solid #fff;
+            outline: none;
+            box-sizing: border-box;
+            font-family: 'Righteous', cursive;
+            margin-left: 80px;
+            width: 350px;
+        }
+        
+        #submit {
+            height: 3vw;
+            width: 10vw;
+            align-content: center;
+            margin-left: 190px;
+            background-color: rgb(253, 250, 250);
+            font-family: 'Righteous', cursive;
+            color: grey;
+        }
+        
+        #footerend {
+            border-top: 2px solid #fa4802;
+            margin-bottom: 5px;
+        }
+        
+        .check span {
+            text-align: center;
+            color: #fff;
+            letter-spacing: 1px;
+            font-family: 'Righteous', cursive;
+            width: 23%;
+        }
+        
+        .checkbox {
+            margin-left: 14vw;
+        }
+        
+        .logo {
+            border-radius: 35px;
+            height: 5vw;
+            width: 7vw;
+            display: inline-block;
+            float: left;
+        }
+    }
+    </style>
+</head>
+
+<body>
+    <h1><img src="d6.jpeg" height="90vw" class="logo">
+        <b>
+            H<span>ear</span>ts  Ba<span>ke</span>r
+            </b>
+    </h1>
+    <div>
+        <h2>Fill out the form below to login</h2>
+        <form action="/action_page.php">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" placeholder="Email or Phone" required>
+            <label for="lname">Last name:</label><br>
+            <input type="password" id="lname" name="lname" placeholder="Password" required><br>
+            <a href="forgot.html"><label style="color: white; margin-left: 320px;">Forget Password</label></a>
+            <br><br>
+            <label class="check">
+                <input type="checkbox" class="checkbox">    
+                <span>Remember Me</span>
+                </label>
+            <br><br>
+            <a href="project.html"> <input type="submit" value="Login" id="submit"></a>
+            <br>
+            <p style="color: white; text-align: center; font-family: 'Righteous', cursive;">Don't have account&nbsp;?&nbsp;<a href="registration.html">Signup Now</a></p>
+
+        </form>
+    </div>
+    <footer id="footerend">
+        <p style="color: rgb(7, 7, 7); font-family: sans-serif; text-align: center;"><b>Login form of HeartBaker’s
+                  2020-2021 © HeartBakers™ Ltd. All rights reserved.</b></p>
+    </footer>
+
+
+
+    <script>
+        function respond() {
+            alert("Thanks for logging in ")
+        };
+        var btn = document.getElementById("submit")
+        btn.addEventListener('click', respond);
+
+        document.getElementById("submit").onclick = function() {
+            location.href = "Main.html";
+        };
+    </script>
+</body>
+
+</html>

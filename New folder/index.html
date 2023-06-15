@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Home Bakers - Credit Card Checkout</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class='container'>
+  <div class='window'>
+    <div class='order-info'>
+      <div class='order-info-content'>
+        <h2>Order Summary</h2>
+                <div class='line'></div>
+        <table class='order-table'>
+          <tbody>
+            <tr>
+              <td><img src='lasagna.jpg' class='full-width'></img>
+              </td>
+              <td>
+                <br> <span class='thin'>Cheese Lasagna</span>
+                <br> Extra cheese<br> <span class='thin small'> Medium Fries<br><br></span>
+              </td>
+
+            </tr>
+            <tr>
+              <td>
+                <div class='price'>₹270</div>
+              </td>
+            </tr>
+          </tbody>
+
+        </table>
+        <div class='line'></div>
+        <table class='order-table'>
+          <tbody>
+            <tr>
+              <td><img src='roll.jpg' class='full-width'></img>
+              </td>
+              <td>
+                <br> <span class='thin'>Paneer Tikka Roll</span>
+                <br>Extra Cheese<br> <span class='thin small'> Coke Diet</span>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class='price'>₹200</div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <div class='line'></div>
+        <table class='order-table'>
+          <tbody>
+            <tr>
+              <td><img src='combo2.jpg' class='full-width'></img>
+              </td>
+              <td>
+                <br> <span class='thin'>Italian pizza</span>
+                <br>Fried Momos<br> <span class='thin small'> Sprite</span>
+              </td>
+
+            </tr>
+            <tr>
+              <td>
+                <div class='price'>₹350</div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <div class='line'></div>
+        <div class='total'>
+          <span style='float:left;'>
+            <div class='thin dense'>GST 18%</div>
+            <div class='thin dense'>Delivery</div>
+            TOTAL
+          </span>
+          <span style='float:right; text-align:right;'>
+            <div class='thin dense'>₹12</div>
+            <div class='thin dense'>₹40</div>
+            ₹872
+          </span>
+        </div>
+</div>
+</div>
+        <div class='credit-info'>
+          <div class='credit-info-content'>
+            <table class='half-input-table'>
+              <tr><td>Please select your card: </td><td><div class='dropdown' id='card-dropdown'><div class='dropdown-btn' id='current-card'>Visa</div>
+                <div class='dropdown-select'>
+                <ul>
+                  <li>Master Card</li>
+                  <li>American Express</li>
+                  </ul></div>
+                </div>
+               </td></tr>
+            </table>
+            <img src='https://dl.dropboxusercontent.com/s/ubamyu6mzov5c80/visa_logo%20%281%29.png' height='80' class='credit-card-image' id='credit-card-image'></img>
+            Card Number
+            <input class='input-field'></input>
+            Card Holder
+            <input class='input-field'></input>
+            <table class='half-input-table'>
+              <tr>
+                <td> Expires
+                  <input class='input-field'></input>
+                </td>
+                <td>CVC
+                  <input class='input-field'></input>
+                </td>
+              </tr>
+            </table>
+            <button class='pay-btn'>Checkout</button>
+
+          </div>
+
+        </div>
+      </div>
+</div>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hearts Baker</title>
+    <link rel="icon" href=d 6.jpeg>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Responsive.css">
+
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine0/style.css" />
+	<!--script type="text/javascript" src="engine0/jquery.js"></script-->
+	<!-- End WOWSlider.com HEAD section --></head>
+
+<body>
+    <header>
+
+        <nav>
+            <ul class="nav-list">
+
+                <li>
+                    <a href="#"><img class="logo" src="d6.jpeg" usemap="#Map" /></a>
+                </li>
+                <map name="Map">
+                    <area shape="rect" coords="4,2,151,122" href="https://goo.gl/maps/m76Mvub3gFTzWvvn6" target="">
+                  </map>
+
+                <li class="nav-items">
+                    <a href="#home">Home</a>
+                </li>
+
+                <li class="nav-items">
+                    <a href="#special">Today's Special</a>
+                </li>
+                </li>
+
+                <li class="nav-items">
+                    <a href="#Dishes">Dishes</a>
+                </li>
+
+                <li class="nav-items">
+                    <a href=" #About-us ">Our Chef's</a>
+                </li>
+
+                <li class="nav-items">
+                    <a href="#cont ">Contact Us</a>
+                </li>
+                <!-- <li class="nav-items">
+                    <a><i class="fa fa-cart-plus" aria-hidden="true"></i></a>
+                </li> -->
+
+            </ul>
+        </nav>
+    </header>
+    <div class="video-container">
+        <!-- <video autoplay muted loop class="myVideo"> -->
+        <video src="v10.mp4" autoplay muted loop class="myVideo" type="video/mp4"></video>
+        <!-- <video src="images/v3.mp4" autoplay muted loop class="myVideo" type="video/mp4"></video> -->
+    </div>
+
+    
+
+
+
+        <h1 class="h-primary">Deliciousness <span>JUMPING</span> into the mouth</h1>
+        <h2 class="h-sec">A <span>TASTE</span> of home</h2>
+        <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p> -->
+        <p>Love at first bite</p>
+        <!-- <a href="#"><button class="section-button">Order Now</button></a> -->
+    </section>
+    <section id="special">
+        <div class="flip">
+            <h1 class="dishes" style="font-size: 34px;">Today's Special &nbsp;&nbsp;<i class="fa fa-chevron-circle-down" aria-hidden="true"></i></h1>
+        </div>
+        <div class="panel">“Part of the secret of success is to eat what you like and let the food fight it out inside.”</div>
+
+        <div class="flex-container">
+            <div class="card">
+                <img src="pizza2.jpg" alt="pizza" style="width:100% ; height:50%;">
+                <h1>2 Pepperoni pizza</h1>
+                <p>Buy one get one free.</p>
+                <p class="offer"><i><b>390Rs/-</b></i></p>
+                <p><i><b>195Rs/-</b></i></p>
+
+
+                <p><a href="New%20folder/index.html"><button>Order Now</button></a></p>
+            </div>
+
+            <div class="card">
+                <img src="momos.jpg" alt="momos" style="width:100% ; height:50%;">
+                <h3>Fried Momos</h3>
+                <h5>
+                    <p>Dumpling momos served with chutney and mayonnaise</p>
+                </h5>
+                <p class="offer"><i><b>60 Rs/-</b></i></p>
+                <p><i><b>50Rs/-</b></i></p>
+                <p><a href="New%20folder/index.html"><button>Order Now</button></a></p>
+            </div>
+
+            <div class="card">
+                <img src="noodles.jpg" alt="Schezwan noodles" style="width:100% ; height:50%;">
+                <h3>Schezwan noodles</h3>
+                <p>Spicy chinese Schezwan noodles with vegetables</p>
+                <p class="offer"><i><b>110 Rs/-</b></i></p>
+                <p><i><b>80 Rs/-</b></i></p>
+                <p><a href="New%20folder/index.html"><button>Order Now</button></a></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="Dishes">
+        <div class="flip ">
+            <h1 class="dishes " style="font-size: 40px; ">Dishes &nbsp;&nbsp;<i class="fa fa-chevron-circle-down " aria-hidden="true "></i></h1>
+        </div>
+        <div class="panel ">“There is no sincerer love than the love of food.”
+            <ul style="list-style-type: none; ">
+                <a href="#dessert">
+                    <li>Desserts</li>
+                </a>
+                <a href="#shake">
+                    <li>Shakes</li>
+                </a>
+                <a href="#combo">
+                    <li>Special Combo's</li>
+                </a>
+            </ul>
+        </div>
+        <div class="flex-container " id="dish">
+            <div class="card ">
+                <img src="lasagna.jpg " alt="Cheese Lasagna " style="width:100% ; height:50%; ">
+                <h3>Cheese Lasagna</h3>
+                <p>Sweet italian sausage, lean ground beef, ricotta cheese</p>
+                <p><i><b>120 Rs/-</b></i></p>
+                <p><a href="New%20folder/index.html"><button>Order Now</button></a></p>
+            </div>
+
+            <div class="card ">
+                <img src="pasta.jpg " alt="Red Sauce Pasta " style="width:100% ; height:50%; ">
+                <h3>Italian Pasta</h3>
+                <p>Italian Red Sause Pasta Penne with Eggplant and Sause</p>
+                <p><i><b>80 Rs/-</b></i></p>
+                <p><a href="New%20folder/index.html"><button>Order Now</button></a></p>
+            </div>
+
+            <div class="card ">
+                <img src="roll.jpg " alt="Paneer tikka roll " style="width:100% ; height:50%; ">
+                <h3>Paneer Tikka Roll</h3>
+                <p>Grilled and marinated paneer, onions and capsium roll</p>
+                <p><i><b>60 Rs/-</b></i></p>
+                <p><a href="New%20folder/index.html"><button>Order Now</button></a></p>
+            </div>
+        </div>
+
+
+        <div class="flex-container ">
+            <div class="card ">
+                <img src="sandwich.jpg " alt="Sandwich " style="width:100% ; height:50%; ">
+                <h3>Club Sandwich</h3>
+                <p>Club sandwich panini with ham, tomato, cheese and basil.</p>
+                <p><i><b>100 Rs/-</b></i></p>
+                <p><a href="New%20folder/index.html"><button>Order Now</button></a></p>
+            </div>
+
+            <div class="card ">
+                <img src="momos.jpg " alt="momos " style="width:100% ; height:50%; ">
+                <h3>Fried Momos</h3>
+                <p>Dumpling momos served with chutney and mayonnaise</p>
+                <p><i><b>60 Rs/-</b></i></p>
+                <p><a href="New%20folder/index.html"><button>Order Now</button></a></p>
+            </div>
+
+            <div class="card ">
+                <img src="noodles.jpg " alt="Schezwan noodles " style="width:100% ; height:50%; ">
+                <h3>Schezwan noodles</h3>
+                <p>Spicy chinese Schezwan noodles with vegetables</p>
+                <p><i><b>110 Rs/-</b></i></p>
+                <p><a href="New%20folder/index.html"><button>Order Now</button></a></p>
+            </div>
+
+
+
+        </div>
+        <div class="flex-container ">
+            <div class="card ">
+                <img src="burger.jpg " alt="Cheese BURGER " style="width:100% ; height:50%; ">
+                <h3>Cheese Burger</h3>
+                <p>Big double cheddar cheeseburger with potato cutlet</p>
+                <p><i><b>80 Rs/-</b></i></p>
+                <p><a href="New%20folder/index.html"><button>Order Now</button></a></p>
+            </div>
+
+            <div class="card ">
+                <img src="biryani.jpg " alt="biryani " style="width:100% ; height:50%; ">
+                <h3>Veg Biryani</h3>
+                <p>Traditional indian vegetarian biryani with basil</p>
+                <p><i><b>140 Rs/-</b></i></p>
+                <p><a href="New%20folder/index.html"><button>Order Now</button></a></p>
+            </div>
+
+            <div class="card ">
+                <img src="pizza.jpg " alt="pizza " style="width:100% ; height:50%; ">
+                <h3>Italian pizza</h3>
+                <p>Delicious classic italian pizza with mozzarella cheese</p>
+                <p><i><b>250 Rs/-</b></i></p>
+                <p><a href="New%20folder/index.html"><button>Order Now</button></a></p>
+            </div>
+        </div>
+
+        <div class="flip " id="dessert ">
+            <h1 class="dishes " style="font-size: 34px ; ">Desserts &nbsp;&nbsp;<i class="fa fa-chevron-circle-down " aria-hidden="true "></i></h1>
+        </div>
+        <div class="panel ">“Anything is good if it's made of chocolate.”
+            <ul style="list-style-type: none; ">
+                <a href="#dish">
+                    <li>Dish</li>
+                </a>
+                <a href="#shake">
+                    <li>Shakes</li>
+                </a>
+                <a href="#combo">
+                    <li>Special Combo's</li>
+                </a>
+            </ul>
+        </div>
+        <div class="flex-container " id="dessert">
+            <div class="card ">
+                <img src="waffles.jpg " alt="waffles " style="width:100% ; height:50%; ">
+                <h3>Strawberry waffles.</h3>
+                <p>Belgium waffles with strawberries and ice cream.</p>
+                <p><i><b>150 Rs/-</b></i></p>
+                <p><a href="New%20folder/index.html"><button>Order Now</button></a></p>
+            </div>
+
+            <div class="card ">
+                <img src="donuts.jpg " alt="Donuts " style="width:100% ; height:50%; ">
+                <h3>Donuts</h3>
+                <p>chocolate and pink donuts with chocolate glaze</p>
+                <p><i><b>60 Rs/-</b></i></p>
+                <p><a href="New%20folder/index.html"><button>Order Now</button></a></p>
+            </div>
+
+            <div class="card ">
+                <img src="cake.jpg " alt="cake " style="width:100% ; height:50%; ">
+                <h3>Black forest cake</h3>
+                <p>Eggless chocolate cake with cherries.</p>
+                <p><i><b>150 Rs/-</b></i></p>
+                <p><a href="New%20folder/index.html"><button>Order Now</button></a></p>
+            </div>
+
+        </div>
+        <div class="flex-container ">
+            <div class="card ">
+                <img src="rasmalai.jpg " alt="Ras malai " style="width:100% ; height:50%; ">
+                <h3>Ras Malai.</h3>
+                <p> sweet of cottage balls soaked in sweetened and flavored milk</p>
+                <p><i><b>90 Rs/-</b></i></p>
+                <p><a href="New%20folder/index.html"><button>Order Now</button></a></p>
+            </div>
+
+            <div class="card ">
+                <img src="ghevar.jpg " alt="ghewar " style="width:100% ; height:50%; ">
+                <h3>Ghevar</h3>
+                <p>Served by dipping it in sugar syrup or topped with milk rabdi</p>
+                <p><i><b>120 Rs/-</b></i></p>
+                <p><a href="New%20folder/index.html"><button>Order Now</button></a></p>
+            </div>
+
+            <div class="card ">
+                <img src="kheer.jpg " alt="kheer " style="width:100% ; height:50%; ">
+                <h3>Kheer</h3>
+                <p>rice pudding made with, milk, nuts and saffron</p>
+                <p><i><b>50 Rs/-</b></i></p>
+                <p><a href="New%20folder/index.html"><button>Order Now</button></a></p>
+            </div>
+        </div>
+
+
+        <div class="flip " id="shake">
+            <h1 class="dishes " style="font-size: 34px; ">Shakes &nbsp;&nbsp;<i class="fa fa-chevron-circle-down " aria-hidden="true "></i></h1>
+        </div>
+        <div class="panel ">"People who love to eat are always the best people. "
+            <ul style="list-style-type: none; ">
+                <a href="#dish ">
+                    <li>Dish</li>
+                </a>
+                <a href="#dessert ">
+                    <li>Desserts</li>
+                </a>
+                <a href="#combo ">
+                    <li>Special Combo's</li>
+                </a>
+            </ul>
+        </div>
+        <div class="flex-container ">
+            <div class="card ">
+                <img src="coffee.jpg " alt="cold coffee " style="width:100% ; height:50%; ">
+                <h3>Cold Coffee</h3>
+                <p>Cold Coffee with chocolate sprinkled over it.</p>
+                <p><i><b>110 Rs/-</b></i></p>
+                <p><a href="New%20folder/index.html"><button>Order Now</button></a></p>
+            </div>
+
+            <div class="card ">
+                <img src="kitkatshake.jpg " alt="Kit Kat Shake " style="width:100% ; height:50%; ">
+                <h3>Kit Kat Shake</h3>
+                <p>Kit Kat Shake with Sprinkle crushed chocolate and Kitkat</p>
+                <p><i><b>150 Rs/-</b></i></p>
+                <p><a href="New%20folder/index.html"><button>Order Now</button></a></p>
+            </div>
+
+            <div class="card ">
+                <img src="oreoshake.jpg " alt="Oreo Milkshake " style="width:100% ; height:50%; ">
+                <h3>Oreo Milkshake</h3>
+                <p>Oreo Shake with Sprinkle crushed chocolate</p>
+                <p><i><b>110 Rs/-</b></i></p>
+                <p><a href="New%20folder/index.html"><button>Order Now</button></a></p>
+            </div>
+        </div>
+        <div class="flex-container ">
+            <div class="card ">
+                <img src="brownieshake.jpg " alt="Brownie shake " style="width:100% ; height:50%; ">
+                <h3>Brownie shake</h3>
+                <p>Chocolate Brownie milkshake with vanilla icecream.</p>
+                <p><i><b>150 Rs/-</b></i></p>
+                <p><a href="New%20folder/index.html"><button>Order Now</button></a></p>
+            </div>
+
+            <div class="card ">
+                <img src="buttershake.jpg " alt="Kit Kat Shake " style="width:100% ; height:50%; ">
+                <h3>Peanut butter milkshake</h3>
+                <p>You’ve got milk, peanut butter, and vanilla ice cream, too.</p>
+                <p><i><b>110 Rs/-</b></i></p>
+                <p><a href="New%20folder/index.html"><button>Order Now</button></a></p>
+            </div>
+
+            <div class="card ">
+                <img src="strawberryshake.jpg " alt="Strawberry Smoothie " style="width:100% ; height:50%; ">
+                <h3>Strawberry Smoothie</h3>
+                <p>creamy strawberry chia seed smoothie!</p>
+                <p><i><b>110 Rs/-</b></i></p>
+                <p><a href="New%20folder/index.html"><button>Order Now</button></a></p>
+            </div>
+        </div>
+
+        <div class="flip " id="combo">
+            <h1 class="dishes " style="font-size: 34px; ">Special Combos &nbsp;&nbsp;<i class="fa fa-chevron-circle-down " aria-hidden="true "></i></h1>
+        </div>
+        <div class="panel ">“One cannot think well, love well, sleep well, if one has not dined well.”
+            <ul style="list-style-type: none; ">
+                <a href="#dessert ">
+                    <li>Desserts</li>
+                </a>
+                <a href="#shake ">
+                    <li>Shakes</li>
+                </a>
+                <a href="#dish ">
+                    <li>Dish</li>
+                </a>
+            </ul>
+        </div>
+        <div class="flex-container ">
+            <div class="card ">
+                <img src="combo1.jpg " alt="Special combo 's" style="width:100% ; height:50%;">
+                <h3>1 burger + 1 pepsi + french fries.</h3>
+                <p>1 regular burger + 1 pepsi(100 ml) + french fries.</p>
+                <p><i><b>350 Rs/-</b></i></p>
+                <p><a href="New%20folder/index.html"><button>Order Now</button></a></p>
+            </div>
+
+            <div class="card">
+                <img src="combo2.jpg" alt="Special combo's " style="width:100% ; height:50%; ">
+                <h3>Deluxe Non Veg Combo</h3>
+                <p>Pepper Chicken Pizza + Garlic Bread + Pepsi</p>
+                <p><i><b>295 Rs/-</b></i></p>
+                <p><a href="New%20folder/index.html"><button>Order Now</button></a></p>
+            </div>
+
+            <div class="card ">
+                <img src="combo3.jpg " alt="Special combo 's" style="width:100% ; height:50%;">
+                <h3>Soup + Sandwich</h3>
+                <p>Tomato Soup With Bacon Grilled Cheese Sandwich</p>
+                <p><i><b>150 Rs/-</b></i></p>
+                <p><a href="New%20folder/index.html"><button>Order Now</button></a></p>
+            </div>
+    </section>
+    <!-- =================About us page======================= -->
+    <section id="About-us">
+        <div class="flip">
+            <h1 class="dishes" style="font-size: 34px;">Our Chef's&nbsp;&nbsp;<i class="fa fa-chevron-circle-down" aria-hidden="true"></i></h1>
+        </div>
+        <div class="panel">“No one IS born a great COOK,one learns by Doing”</div>
+
+        <div id="About-us-container">
+            <div class="box" style=" border: 3px solid black;">
+                <img src="chef3.jpg" alt="" ; style="width: 100%;">
+
+                <h3 style=" font-size: 23px; background-color: #f3d7bf; text-align: center; ">Exicutive Chef</h3>
+
+            </div>
+
+            <div class=" box " style=" border: 3px solid black; ">
+                <img src="chef2.jpg " alt=" " style="width: 100%; ">
+                <h3 style="font-size: 23px; background-color: #f3d7bf; text-align: center;">Head Chef</h3>
+
+            </div>
+
+            <div class="box " style=" border: 3px solid black; ">
+                <img src="chef4.jpg " alt=" " style="width: 100%; ">
+                <h3 style="font-size: 23px; background-color: #f3d7bf; text-align: center; ">Junior Chef</h3>
+            </div>
+        </div>
+    </section>
+    <!-- =================================================================== -->
+    <div id="cont">
+        <h1 class="dishes "><i class="fa fa-id-card " aria-hidden="true "></i> &nbsp; &nbsp; Contact &nbsp; US </h1>
+        <div class="Contact-container ">
+
+
+            <div class="contact-box ">
+                <div class="contact-left ">
+                    <p style="font-family: Arial, Helvetica, sans-serif; "><b><i>Feel free to drop us a message&nbsp;!!</i></b></p>
+                    <h3 style="font-family: Arial, Helvetica, sans-serif ">Send your request</h3>
+                    <form action="/action_page.php ">
+
+                        <div class="input-row ">
+                            <div class="input-group ">
+                                <label style="font-family: Arial, Helvetica, sans-serif "><i class="fa fa-id-badge " aria-hidden="true "></i> &nbsp; Name </label>
+                                <input type="text " placeholder=" " required>
+                            </div>
+                            <div class="input-group ">
+                                <label style="font-family: Arial, Helvetica, sans-serif "><i class="fa fa-phone " aria-hidden="true "></i> &nbsp; Phone</label>
+                                <input type="text " placeholder=" " required>
+                            </div>
+                        </div>
+                        <div class="input-row ">
+                            <div class="input-group ">
+                                <label style="font-family: Arial, Helvetica, sans-serif "><i class="fa fa-envelope " aria-hidden="true "></i>&nbsp;Email</label>
+                                <input type="email " placeholder=" " required>
+                            </div>
+                            <div class="input-group ">
+                                <label style="font-family: Arial, Helvetica, sans-serif "><i class="fa fa-tag " aria-hidden="true "></i> &nbsp; Regarding</label>
+                                <input type="text " placeholder=" " required>
+                            </div>
+                        </div>
+
+                        <label style="font-family: Arial, Helvetica, sans-serif "><i class="fa fa-list-alt " aria-hidden="true "></i>&nbsp; Message</label>
+                        <textarea rows="5 " placeholder="Your Query " required></textarea>
+
+                        <button id="Contact-container-button" type="submit ">SEND</button>
+                    </form>
+                </div>
+                <div class="contact-right ">
+                    <a href="# "><img class="logo " src="d6.jpeg "></a>
+                    <h3 style="font-family: Arial, Helvetica, sans-serif ">Reach Us</h3>
+
+                    <table>
+                        <tr>
+                            <td><i class="fa fa-envelope " aria-hidden="true "></i></td>
+                            <td style="font-family: Arial, Helvetica, sans-serif "><a href="heartbakers@gmail.com ">Heartbakers@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa fa-phone " aria-hidden="true "></i></td>
+                            <td style="font-family: Arial, Helvetica, sans-serif ">+91 9412246459</td>
+
+                        </tr>
+                        <tr>
+                            <td><i class="fa fa-map " aria-hidden="true "></i></td>
+                            <td style="font-family: Arial, Helvetica, sans-serif "> 162-163,&nbsp; Madhya Marg, &nbsp; Sector 9C,&nbsp; Chandigarh,&nbsp; 160009</td>
+                        </tr>
+                    </table>
+                    <center>
+                        <div class="social ">
+                            <a href="https://www.facebook.com/ " target="_blank " id="facebook " style="color: #723937;"><i class="fab fa-facebook-f "></i></i></a>
+                            <a href="https://twitter.com/ " id="twitter " target="_blank " style="color: #723937;"><i class="fab fa-twitter "></i></a>
+                            <a href="https://www.instagram.com/ " target="_blank " id="insta " style="color: #723937;"><i class="fab fa-instagram "></i></a>
+                        </div>
+                        <br>
+                        <p style="font-family: Arial, Helvetica, sans-serif "> For more information give a miss call on
+                            <u>1800 267 1999</u></p>
+                    </center>
+                </div>
+            </div>
+        </div>
+        <section>
+
+            <button type="button " class="coc "><b>Who are we?</b></button>
+            <div class="content ">
+                <p style="font-family: sans-serif; ">Launched in 2020, by the students of Chitkara University as a food odering website ,we serve our customer with best quality ingredients and allows them to sit back at home and search for the food at there convenience<br>
+                    <br>
+                    <b><a href="https://instagram.com/dv_sharma29?igshid=2m05o7qwjgcl ">DIVANSHU SHARMA</a> (CEO & Founder) , &nbsp;
+                         <a href="https://instagram.com/yash_gagrani?igshid=zd8qbyh03qg0 ">YASH MAHESHWARI</a> (CEO & Founder) , &nbsp;
+                        <a href="https://instagram.com/swayam_vij?igshid=1hyhev6on4l27 ">SWAYAM VIJ</a> (CEO & Founder) , &nbsp;
+                        <a href="https://instagram.com/tarunsharma1207?igshid=1e9u2pcn72p5s ">TARUN SHARMA</a> (CEO & Founder)</b> </p>
+            </div>
+
+            <button type="button " class="coc "><b>Code of Conduct</b></button>
+            <div class="content ">
+                <p style="font-family: sans-serif; ">This policy applies only to the information HeartBaker's collects through its Services, in email, text and other electronic communications sent through or in connection with its Services. <br>This policy DOES NOT apply to information that
+                    you provide to, or that is collected by, any third-party you pay through HeartBaker's Services and social networks that you use in connection with its Services . WE encourages you to consult directly with such third-parties about their
+                    privacy practices.</p>
+            </div>
+            <button type="button " class="coc "><b>Security</b></button>
+            <div class="content ">
+                <p style="font-family: sans-serif; ">We take security seriously at HeartBaker's. If you are a security researcher or expert, and believe you’ve identified security-related issues with HeartBaker’s website, we would appreciate you disclosing it to us responsibly.<br>
+                    <br> Our team is committed to addressing all security issues in a responsible and timely manner, and ask the security community to give us the opportunity to do so before disclosing them publicly. Please submit a bug to us on our HackerOne
+                    page, along with a detailed description of the issue and steps to reproduce it, if any. We trust the security community to make every effort to protect our users data and privacy.
+
+                </p>
+            </div>
+            <button type="button " class="coc "><b>Guidelines and Policies</b></button>
+            <div class="content ">
+                <p style="font-family: sans-serif; ">If there's one thing we truly love, it's sharing in all the great foodie moments you have. Bouquets when the food exceeds your expectations, brickbats when the service is shocking, chronicles of your food excursions – they all count.
+                    <br><br> While we welcome your opinions and descriptions of your dining experiences, there are a few things we expect from every user on Heartbaker. Your reviews and photos, as well as your profile and the comments you share, are all
+                    subject to Content Guidelines, our Foodie Code of Conduct.
+                    <br><br> If your activity on HeartBaker doesn't match up to these content guidelines, we reserve the right to take action as we deem necessary. This could include altering or deleting your reviews or comments, restricting your review
+                    activity or deleting your HeartBaker account altogether, with or without notice. HeartBaker also utilizes an algorithm to aid in removing suspicious reviews. If you feel your review was deleted in error, email us at help@HeartBaker.com.</p>
+            </div>
+
+        </section>
+        <footer id="footerend ">
+            <p style="color: rgb(211, 201, 201); font-family: sans-serif; ">By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2020-2021 © HeartBakers™ Ltd. All rights reserved.</p>
+        </footer>
+
+        <script>
+            function respond() {
+                alert("Thank 's For Responding")
+            };
+
+            function conf() {
+                confirm("Confirm")
+            };
+            var btn = document.getElementById('Contact-container-button');
+            btn.addEventListener('click', conf);
+            btn.addEventListener('click', respond);
+
+            $(document).ready(function() {
+                $(".flip").click(function() {
+                    $(".panel").slideToggle("slow");
+                });
+            });
+            var coll = document.getElementsByClassName("coc");
+            var i;
+
+            for (i = 0; i < coll.length; i++) {
+                coll[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var content = this.nextElementSibling;
+                    if (content.style.display === "block") {
+                        content.style.display = "none";
+                    } else {
+                        content.style.display = "block";
+                    }
+                });
+            }
+        </script>
+        <section id="map">
+
+</body>
+
+</html>
